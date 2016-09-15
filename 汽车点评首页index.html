@@ -1,0 +1,4447 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link type="text/css" rel="stylesheet" href="css/汽车首页css.css">
+<script type="text/javascript" src="js/jquery1.8.2.js"></script>
+<title>2016汽车点评首页</title>
+</head>
+
+<body>
+  <!--导航栏区域start-->
+  <div class="navbox">
+    <div class="nav-main">
+      <div class="logo fl">
+        <a href="" target="_blank">
+          <img src="img/logo.png" width="160" height="70" alt="58同城汽车">
+        </a>
+      </div>
+      <ul class="nav-item fr">
+        <li>
+          <a href="" target="_blank">新闻</a>
+        </li>
+        <li>
+          <a href="" target="_blank">导购</a>
+        </li>
+        <li>
+          <a href="" target="_blank">试驾</a>
+        </li>
+        <li>
+          <a href="" target="_blank">报价</a>
+        </li>
+        <li>
+          <a href="" target="_blank">图片</a>
+        </li>
+        <li>
+          <a href="" target="_blank">选车</a>
+        </li>
+        <li>
+          <a href="" target="_blank">经销商</a>
+        </li>
+        <li>
+          <a href="" target="_blank">二手车</a>
+        </li>
+        <li>
+          <a href="" target="_blank">买车惠</a>
+        </li>
+        <li>
+          <a href="" target="_blank">美车致</a>
+        </li>
+        <li>
+          <a href="" target="_blank">用品论坛</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--导航栏区域end-->
+  <!--内容start-->
+  <div class="content" id="divcontent">
+    <!--搜索区域start-->
+    <div class="row pt20">
+      <div class="searchbox">
+        <div class="search fl">
+          <form action="">
+            <input id="j_keywords" type="text" class="key" name="kword" value="宝马3系" data-source autocomplete="off">
+            <i class="icon1 icon1-search"></i>
+            <input type="submit" class="sbtn" value="搜索">
+            <div class="brand" id="searchResultlist">
+              <div class="brand_list">
+                <ol id="searchshow" class="search-suggest">
+                  <li>
+                    <a href="" target="_blank">
+                      <em class="n n1">1</em>
+                      宝骏560
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      <em class="n n1">2</em>
+                      哈弗H6
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      <em class="n n1">3</em>
+                      绅宝D70
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      <em class="n n2">4</em>
+                      奔腾B90
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      <em class="n n2">5</em>
+                      LANNIA蓝鸟
+                    </a>
+                  </li>
+                </ol>
+                <div class="search-suggest-link">
+                  <a class="search-home fl" href="" target="_blank">进入搜索首页>></a>
+                  <a href="" class="search-hot fr" target="_blank">热门产品排行榜>></a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="select-car fr">
+              <div class="audi-search audi-search-ready" id="header-search-pb">
+                <div class="cudi-search-txt">
+                  <span class="audi-search-name">选品牌</span>
+                  <em class="audi-search-icon icon"></em>
+                </div>
+                <div class="audi-search-con" id="search-pb">
+                  <div class="audi-search-con-list" id="search-pb-list">
+                    <ul>
+                      <li>
+                        <a href="javascript:;" data-id="1" data-value="A&nbsp;&nbsp;奥迪">
+                          <em>A</em>
+                          奥迪
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" data-id="2" data-value="A&nbsp;&nbsp;奥迪">
+                          <em>A</em>
+                          阿斯顿马丁
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" data-id="3" data-value="A&nbsp;&nbsp;奥迪">
+                          <em>B</em>
+                          标致
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="audi-search"  id="header-search-ps">
+                <div class="cudi-search-txt">
+                  <span class="audi-search-name">选车系</span>
+                  <em class="audi-search-icon icon"></em>
+                </div>
+                <div class="audi-search-con" id="search-ps">
+                  <div class="audi-search-con-list" id="search-ps-list">
+                    <ul>
+                      <li>
+                        <a href="javascript:;" class="tit">一汽-大众奥迪</a>
+                      </li>
+                      <li>
+                        <a href="javascript:;">奥迪A4L</a>
+                      </li>
+                      <li>
+                        <a href="javascript:;">奥迪A3</a>
+                      </li>
+                      <li>
+                        <a href="javascript:;">奥迪A6L</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+           <input type="submit" id="selSub" class="selSubBtn" value="找车">
+          <a href="" class="selSubBtn classify" target="_blank">查报价</a>
+          <a href="" class="selSubBtn classify" target="_blank">查商家</a>
+          <a href="" class="condition" target="_blank">条件选车</a>
+        </div>
+       </div>
+    </div>
+    <!--搜索区域end-->
+    <!--热门车型区域start-->
+    <div class="row">
+      <div class="pt-newcar">
+        <div class="pt-newcar-tit" id="pt-newcar-tit">
+          <ul class="pt-newcar">
+            <li id="Tab_1" onmouseover="setTab(0)" class="tab_cur">
+              <a href="" target="_blank">热门车型</a>
+            </li>
+            <li id="Tab_2" onmouseover="setTab(1)">
+              <a href="" target="_blank">上市新车</a>
+            </li>
+            <li id="Tab_3" onmouseover="setTab(2)">
+              <a href="" target="_blank">SUV</a>
+            </li>
+            <li id="Tab_4" onmouseover="setTab(3)">
+              <a href="" target="_blank">MPV</a>
+            </li>
+            <li id="Tab_5" onmouseover="setTab(4)">
+              <a href="" target="_blank">新能源</a>
+            </li>
+            <li id="Tab_6" onmouseover="setTab(5)">
+              <a href="" target="_blank">5万以下</a>
+            </li>
+            <li id="Tab_7" onmouseover="setTab(6)">
+              <a href="" target="_blank">5-10万</a>
+            </li>
+            <li id="Tab_8" onmouseover="setTab(7)">
+              <a href="" target="_blank">10-15万</a>
+            </li>
+            <li id="Tab_9" onmouseover="setTab(8)">
+              <a href="" target="_blank">15-20万</a>
+            </li>
+            <li id="Tab_10" onmouseover="setTab(9)">
+              <a href="" target="_blank">20-25万</a>
+            </li>
+          </ul>
+        </div>
+        <div class="pt-newcar-view" id="pt-newcar-view">
+          <!--选项卡内容01-热门车型-->
+          <div class="newcar-con jswitch" id="tabC_1">
+            <div class="newcar-r">
+              <div class="img">
+                <a href="" target="_blank">
+                  <img src="img/cePpxxFQqrNlI.jpg" width="120" height="90" alt="">
+                </a>
+              </div>
+              <div class="text">
+                <b>
+                  <a href="" target="_blank">新蒙迪欧</a>
+                </b><br>
+                <em class="newbold">
+                  <a href="" target="_blank">17.98-26.58万</a>
+                </em>
+              </div>
+              <div class="grey-bg">
+                    <a href="" target="_blank">报价</a>
+                    <i>|</i>
+                    <a href="" target="_blank">图片</a>
+                    <i>|</i>
+                    <a href="" target="_blank">配置</a>
+              </div>
+            </div>
+            <div class="newcar-txt">
+              <ul class="newcarUl clearfix">
+                <li>
+                  <b>
+                    <a href="" target="_blank">英朗</a>
+                  </b>
+                  <span>
+                    <a href="" target="_blank">报价</a>|
+                    <a href="" target="_blank">图片</a>|
+                    <a href="" target="_blank">配置</a>
+                  </span>           
+                </li>
+                <li>
+                  <b>
+                    <a href="" target="_blank">福克斯</a>
+                  </b>
+                  <span>
+                    <a href="" target="_blank">报价</a>|
+                    <a href="" target="_blank">图片</a>|
+                    <a href="" target="_blank">配置</a>
+                  </span>           
+                </li>
+                <li>
+                  <b>
+                    <a href="" target="_blank">景逸S50</a>
+                  </b>
+                  <span>
+                    <a href="" target="_blank">报价</a>|
+                    <a href="" target="_blank">图片</a>|
+                    <a href="" target="_blank">配置</a>
+                  </span>           
+                </li>
+                <li>
+                  <b>
+                    <a href="" target="_blank">捷达</a>
+                  </b>
+                  <span>
+                    <a href="" target="_blank">报价</a>|
+                    <a href="" target="_blank">图片</a>|
+                    <a href="" target="_blank">配置</a>
+                  </span>           
+                </li>
+                <li>
+                  <b>
+                    <a href="" target="_blank">新蒙迪欧</a>
+                  </b>
+                  <span>
+                    <a href="" target="_blank">报价</a>|
+                    <a href="" target="_blank">图片</a>|
+                    <a href="" target="_blank">配置</a>
+                  </span>           
+                </li>
+                <li>
+                  <b>
+                    <a href="" target="_blank">起亚K4</a>
+                  </b>
+                  <span>
+                    <a href="" target="_blank">报价</a>|
+                    <a href="" target="_blank">图片</a>|
+                    <a href="" target="_blank">配置</a>
+                  </span>           
+                </li>
+              </ul>
+              <ul class="newcarUl clearfix">
+                <li>
+                  <b>
+                    <a href="" target="_blank">英朗</a>
+                  </b>
+                  <span>
+                    <a href="" target="_blank">报价</a>|
+                    <a href="" target="_blank">图片</a>|
+                    <a href="" target="_blank">配置</a>
+                  </span>           
+                </li>
+                <li>
+                  <b>
+                    <a href="" target="_blank">福克斯</a>
+                  </b>
+                  <span>
+                    <a href="" target="_blank">报价</a>|
+                    <a href="" target="_blank">图片</a>|
+                    <a href="" target="_blank">配置</a>
+                  </span>           
+                </li>
+                <li>
+                  <b>
+                    <a href="" target="_blank">景逸S50</a>
+                  </b>
+                  <span>
+                    <a href="" target="_blank">报价</a>|
+                    <a href="" target="_blank">图片</a>|
+                    <a href="" target="_blank">配置</a>
+                  </span>           
+                </li>
+                <li>
+                  <b>
+                    <a href="" target="_blank">捷达</a>
+                  </b>
+                  <span>
+                    <a href="" target="_blank">报价</a>|
+                    <a href="" target="_blank">图片</a>|
+                    <a href="" target="_blank">配置</a>
+                  </span>           
+                </li>
+                <li>
+                  <b>
+                    <a href="" target="_blank">新蒙迪欧</a>
+                  </b>
+                  <span>
+                    <a href="" target="_blank">报价</a>|
+                    <a href="" target="_blank">图片</a>|
+                    <a href="" target="_blank">配置</a>
+                  </span>           
+                </li>
+                <li>
+                  <b>
+                    <a href="" target="_blank">起亚K4</a>
+                  </b>
+                  <span>
+                    <a href="" target="_blank">报价</a>|
+                    <a href="" target="_blank">图片</a>|
+                    <a href="" target="_blank">配置</a>
+                  </span>           
+                </li>
+              </ul>
+              <!--更多品牌start-->
+              <div class="brand-item" id="brand-item">
+                <div class="hot-brand">
+                  <ul>
+                    <li id="brand-item-1">
+                      <a href="" target="_blank">
+                        <img src="img/p40.jpg" width="50" height="50" alt="">
+                      </a>
+                    </li>
+                    <li id="brand-item-2">
+                      <a href="" target="_blank">
+                        <img src="img/p40.jpg" width="50" height="50" alt="">
+                      </a>
+                    </li>
+                    <li id="brand-item-3">
+                      <a href="" target="_blank">
+                        <img src="img/p40.jpg" width="50" height="50" alt="">
+                      </a>
+                    </li>
+                    <li id="brand-item-4">
+                      <a href="" target="_blank">
+                        <img src="img/p40.jpg" width="50" height="50" alt="">
+                      </a>
+                    </li>
+                    <li id="brand-item-5">
+                      <a href="" target="_blank">
+                        <img src="img/p40.jpg" width="50" height="50" alt="">
+                      </a>
+                    </li>
+                    <li id="brand-item-6">
+                      <a href="" target="_blank">
+                        <img src="img/p40.jpg" width="50" height="50" alt="">
+                      </a>
+                    </li>
+                    <li id="brand-item-7">
+                      <a href="" target="_blank">
+                        <img src="img/p40.jpg" width="50" height="50" alt="">
+                      </a>
+                    </li>
+                    <li id="brand-item-8">
+                      <a href="" target="_blank">
+                        <img src="img/p40.jpg" width="50" height="50" alt="">
+                      </a>
+                    </li>
+                    <li id="brand-item-9">
+                      <a href="" target="_blank">
+                        <img src="img/p40.jpg" width="50" height="50" alt="">
+                      </a>
+                    </li>
+                    <li id="brand-item-10">
+                      <a href="" target="_blank">
+                        <img src="img/p40.jpg" width="50" height="50" alt="">
+                      </a>
+                    </li>
+                    <li id="brand-item-11">
+                      <a href="" target="_blank">
+                        <img src="img/p40.jpg" width="50" height="50" alt="">
+                      </a>
+                    </li>
+                    <li id="brand-item-12">
+                      <a href="" target="_blank">
+                        <img src="img/p40.jpg" width="50" height="50" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <a href="" target="_blank" class="brand_more">更多品牌</a>
+              </div>
+              <!--更多品牌end-->
+            </div>
+          </div>
+          <!--tab1 END-->
+          <!--选项卡内容02-上市新车-->
+          <div class="newcar-con" id="tabC_2">
+            我是上市新车版块内容
+          </div>
+          <!--tab2 END-->
+          <!--选项卡内容03-SUV-->
+          <div class="newcar-con" id="tabC_3">
+            我是suv版主
+          </div>
+          <!--tab3 END-->
+          <!--选项卡内容04-MPV-->
+          <div class="newcar-con" id="tabC_4">
+            我是mpv版主
+          </div>
+          <!--tab4 END-->
+          <!--选项卡内容05-新能源-->
+          <div class="newcar-con" id="tabC_5">
+            我是新能源版主
+          </div>
+          <!--tab5 END-->
+          <!--选项卡内容06-5万以下-->
+          <div class="newcar-con" id="tabC_6">
+            我的身价在5万以下
+          </div>
+          <!--tab6 END-->
+          <!--选项卡内容07-5-10万-->
+          <div class="newcar-con" id="tabC_7">
+            我的身价在5－10万
+          </div>
+          <!--tab7 END-->
+          <!--选项卡内容08-10-15万-->
+          <div class="newcar-con" id="tabC_8">
+            我的身价在10-15万
+          </div>
+          <!--tab8 END-->
+          <!--选项卡内容09-15-20万-->
+          <div class="newcar-con" id="tabC_9">
+            我的身价在15-20万
+          </div>
+          <!--tab9 END-->
+          <!--选项卡内容10-20-25万-->
+          <div class="newcar-con" id="tabC_10">
+            我的身价在10-20万
+          </div>
+          <!--tab10 END-->
+         </div>
+        </div>
+    </div>
+    <!--热门车型区域end-->
+    <!--热点推荐区域start-->
+    <div class="row">
+      <div class="recommend">
+        <span class="recommend-tit fl">重点推荐</span>
+        <div class="recommend-con fl" id="recommend-con">
+          <ul class="clearfix" id="recommend-item">
+            <li>
+              <a href="" target="_blank">
+                <em class="rectangle"></em>
+                思域两厢版预告图曝光 
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em class="rectangle"></em>
+                法拉利GTC4Lusso首发 
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em class="rectangle"></em>
+                国产新君越将于3月上市 
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em class="rectangle"></em>
+                再续传奇迎接新生 本田NSX 
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em class="rectangle"></em>
+                新传祺GS4配全新自主1.5T 
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em class="rectangle"></em>
+                国产奔驰新E级长轴将发布 
+              </a>
+            </li>
+         </ul>
+      </div>
+      </div>
+    </div>
+    <!--热点推荐区域end-->
+    <!--焦点图区域start-->
+    <div class="row">
+      <div class="focusbox" id="focusbox">
+        <a href="javascript:void(0);" class="pt_first_left" id="pt_first_left">
+          <span>
+            <em class="first-change-num">1</em>
+          </span>
+        </a>
+        <a href="javascript:void(0);" class="pt_first_right" id="pt_first_right">
+          <span>
+            <em class="first-change-num">1</em>
+          </span>
+        </a>
+        <div class="focus-con" id="focus-con">
+          <ul class="ulbox">
+            <li class="focus-pannel">
+              <div class="focuspic" id="focuspic">
+                <div class="car-pic-left">
+                  <div class="car-pic-txt car-pic-big">
+                    <a href="" target="_blank">
+                      <img src="img/cePpxxFQqrNlI.jpg" width="510" height="365">
+                      <span></span>
+                      <p>再续传奇迎接新生 本田NSX</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="car-pic-mid">
+                  <div class="car-pic-txt">
+                    <a href="" target="_blank">
+                      <img src="img/cePpxxFQqrNlI.jpg" width="240" height="180">
+                      <span></span>
+                      <p>2014款宝马M6 GRAN轿跑车</p>
+                    </a>
+                  </div>
+                  <div class="car-pic-txt car-pic-txt-02">
+                    <a href="" target="_blank">
+                      <img src="img/cePpxxFQqrNlI.jpg" width="240" height="180">
+                      <span></span>
+                      <p>沙漠盛宴MONSTER车队</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="car-pic-right">
+                  <div class="car-txt">
+                    <a href="" target="_blank">
+                      <h3>不加价了 大众途观降3.5万</h3>
+                      <p>近日，本店内途观现车销售，颜色可选目前购车部分车型可优惠...</p>
+                    </a>
+                  </div>
+                  <div class="car-txt">
+                    <a href="" target="_blank">
+                      <h3>国产奔驰新E级长轴将发布</h3>
+                      <p>据梅赛德期－奔驰官方消息，其计划在过10款全新及中期改款车型...</p>
+                    </a>
+                  </div>
+                  <div class="car-txt">
+                    <a href="" target="_blank">
+                      <h3>新传祺GS4配全新自主1.5T</h3>
+                      <p>传祺GS4 235T将搭载全新的自主1.5T涡轮增压发动机，于3月21日上市</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="focus-pannel">
+              <div class="focuspic" id="focuspic2">
+                <div class="car-pic-left">
+                  <div class="car-pic-txt car-pic-big">
+                    <a href="" target="_blank">
+                      <img src="img/ce3u9zCYIQt.jpg" width="510" height="365">
+                      <span></span>
+                      <p>再续传奇迎接新生 本田NSX</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="car-pic-mid">
+                  <div class="car-pic-txt">
+                    <a href="" target="_blank">
+                      <img src="img/cePpxxFQqrNlI.jpg" width="240" height="180">
+                      <span></span>
+                      <p>2014款宝马M6 GRAN轿跑车</p>
+                    </a>
+                  </div>
+                  <div class="car-pic-txt car-pic-txt-02">
+                    <a href="" target="_blank">
+                      <img src="img/cePpxxFQqrNlI.jpg" width="240" height="180">
+                      <span></span>
+                      <p>沙漠盛宴MONSTER车队</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="car-pic-right">
+                  <div class="car-txt">
+                    <a href="" target="_blank">
+                      <h3>不加价了 大众途观降3.5万</h3>
+                      <p>近日，本店内途观现车销售，颜色可选目前购车部分车型可优惠...</p>
+                    </a>
+                  </div>
+                  <div class="car-txt">
+                    <a href="" target="_blank">
+                      <h3>国产奔驰新E级长轴将发布</h3>
+                      <p>据梅赛德期－奔驰官方消息，其计划在过10款全新及中期改款车型...</p>
+                    </a>
+                  </div>
+                  <div class="car-txt">
+                    <a href="" target="_blank">
+                      <h3>新传祺GS4配全新自主1.5T</h3>
+                      <p>传祺GS4 235T将搭载全新的自主1.5T涡轮增压发动机，于3月21日上市</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="focus-pannel">
+              <div class="focuspic" id="focuspic3">
+                <div class="car-pic-left">
+                  <div class="car-pic-txt car-pic-big">
+                    <a href="" target="_blank">
+                      <img src="img/cePpxxFQqrNlI.jpg" width="510" height="365">
+                      <span></span>
+                      <p>再续传奇迎接新生 本田NSX</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="car-pic-mid">
+                  <div class="car-pic-txt">
+                    <a href="" target="_blank">
+                      <img src="img/cePpxxFQqrNlI.jpg" width="240" height="180">
+                      <span></span>
+                      <p>2014款宝马M6 GRAN轿跑车</p>
+                    </a>
+                  </div>
+                  <div class="car-pic-txt car-pic-txt-02">
+                    <a href="" target="_blank">
+                      <img src="img/cePpxxFQqrNlI.jpg" width="240" height="180">
+                      <span></span>
+                      <p>沙漠盛宴MONSTER车队</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="car-pic-right">
+                  <div class="car-txt">
+                    <a href="" target="_blank">
+                      <h3>不加价了 大众途观降3.5万</h3>
+                      <p>近日，本店内途观现车销售，颜色可选目前购车部分车型可优惠...</p>
+                    </a>
+                  </div>
+                  <div class="car-txt">
+                    <a href="" target="_blank">
+                      <h3>国产奔驰新E级长轴将发布</h3>
+                      <p>据梅赛德期－奔驰官方消息，其计划在过10款全新及中期改款车型...</p>
+                    </a>
+                  </div>
+                  <div class="car-txt">
+                    <a href="" target="_blank">
+                      <h3>新传祺GS4配全新自主1.5T</h3>
+                      <p>传祺GS4 235T将搭载全新的自主1.5T涡轮增压发动机，于3月21日上市</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="focus-pannel">
+              <div class="focuspic" id="focuspic4">
+                <div class="car-pic-left">
+                  <div class="car-pic-txt car-pic-big">
+                    <a href="" target="_blank">
+                      <img src="img/ceERwo6XewZbQ.jpg" width="510" height="365">
+                      <span></span>
+                      <p>再续传奇迎接新生 本田NSX</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="car-pic-mid">
+                  <div class="car-pic-txt">
+                    <a href="" target="_blank">
+                      <img src="img/cePpxxFQqrNlI.jpg" width="240" height="180">
+                      <span></span>
+                      <p>2014款宝马M6 GRAN轿跑车</p>
+                    </a>
+                  </div>
+                  <div class="car-pic-txt car-pic-txt-02">
+                    <a href="" target="_blank">
+                      <img src="img/cePpxxFQqrNlI.jpg" width="240" height="180">
+                      <span></span>
+                      <p>沙漠盛宴MONSTER车队</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="car-pic-right">
+                  <div class="car-txt">
+                    <a href="" target="_blank">
+                      <h3>不加价了 大众途观降3.5万</h3>
+                      <p>近日，本店内途观现车销售，颜色可选目前购车部分车型可优惠...</p>
+                    </a>
+                  </div>
+                  <div class="car-txt">
+                    <a href="" target="_blank">
+                      <h3>国产奔驰新E级长轴将发布</h3>
+                      <p>据梅赛德期－奔驰官方消息，其计划在过10款全新及中期改款车型...</p>
+                    </a>
+                  </div>
+                  <div class="car-txt">
+                    <a href="" target="_blank">
+                      <h3>新传祺GS4配全新自主1.5T</h3>
+                      <p>传祺GS4 235T将搭载全新的自主1.5T涡轮增压发动机，于3月21日上市</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="focus-pannel">
+              <div class="focuspic" id="focuspic5">
+                <div class="car-pic-left">
+                  <div class="car-pic-txt car-pic-big">
+                    <a href="" target="_blank">
+                      <img src="img/cePpxxFQqrNlI.jpg" width="510" height="365">
+                      <span></span>
+                      <p>再续传奇迎接新生 本田NSX</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="car-pic-mid">
+                  <div class="car-pic-txt">
+                    <a href="" target="_blank">
+                      <img src="img/cePpxxFQqrNlI.jpg" width="240" height="180">
+                      <span></span>
+                      <p>2014款宝马M6 GRAN轿跑车</p>
+                    </a>
+                  </div>
+                  <div class="car-pic-txt car-pic-txt-02">
+                    <a href="" target="_blank">
+                      <img src="img/cePpxxFQqrNlI.jpg" width="240" height="180">
+                      <span></span>
+                      <p>沙漠盛宴MONSTER车队</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="car-pic-right">
+                  <div class="car-txt">
+                    <a href="" target="_blank">
+                      <h3>不加价了 大众途观降3.5万</h3>
+                      <p>近日，本店内途观现车销售，颜色可选目前购车部分车型可优惠...</p>
+                    </a>
+                  </div>
+                  <div class="car-txt">
+                    <a href="" target="_blank">
+                      <h3>国产奔驰新E级长轴将发布</h3>
+                      <p>据梅赛德期－奔驰官方消息，其计划在过10款全新及中期改款车型...</p>
+                    </a>
+                  </div>
+                  <div class="car-txt">
+                    <a href="" target="_blank">
+                      <h3>新传祺GS4配全新自主1.5T</h3>
+                      <p>传祺GS4 235T将搭载全新的自主1.5T涡轮增压发动机，于3月21日上市</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--焦点图区域end-->
+    <!--新闻区域start-->
+    <div class="row">
+      <div class="news">
+        <div class="news-l">
+          <!--车系新闻start-->
+          <div class="report">
+            <div class="sec-tit" id="report-tit">
+              <ul>
+                <li class="active">
+                  <a href="" target="_blank">SUV</a>
+                </li>
+                <li>
+                  <a href="" target="_blank">新能源</a>
+                </li>
+              </ul>
+            </div>
+            <div class="news-con">
+              <div class="news-con-item cur">
+               <div class="pic">
+                  <a href="" target="_blank">
+                    <img src="img/cePpxxFQqrNlI.jpg" alt="">
+                  </a>
+                  <div>
+                    <a href="" target="_blank">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt">起亚KX5即将上市 易车试驾直播回顾</p>
+                    </a>
+                  </div>
+                </div>  
+                <ul class="news-con-txt">
+                  <li>
+                    <a href="" target="_blank">
+                      <em class="icon icon2"></em>
+                      长安CX70官图首曝
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      <em class="icon icon2"></em>
+                      奥迪SQ7还另有隐情
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      <em class="icon icon2"></em>
+                      马自达中国 技艺合一
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      <em class="icon icon2"></em>
+                      仅是涡轮迟滞终结?
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="news-con-item">
+               <div class="pic">
+                  <a href="" target="_blank">
+                    <img src="img/ce3u9zCYIQt.jpg" alt="">
+                  </a>
+                  <div>
+                    <a href="" target="_blank">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt">起亚KX5即将上市 易车试驾直播回顾</p>
+                    </a>
+                  </div>
+                </div>  
+                <ul class="news-con-txt">
+                  <li>
+                    <a href="" target="_blank">
+                      <em class="icon icon2"></em>
+                      长安CX70官图首曝
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      <em class="icon icon2"></em>
+                      奥迪SQ7还另有隐情
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      <em class="icon icon2"></em>
+                      马自达中国 技艺合一
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank">
+                      <em class="icon icon2"></em>
+                      仅是涡轮迟滞终结?
+                    </a>
+                  </li>
+                </ul>
+              </div>
+             </div>
+          </div>
+          <!--车系新闻end-->
+          <!--汽车视频厂商访谈start-->
+          <div class="video">
+            <div class="sec-tit" id="video-tit">
+              <ul>
+                <li class="active">
+                  <a href="" target="_blank">汽车视频</a>
+                </li>
+                <li>
+                  <a href="" target="_blank">厂商访谈</a>
+                </li>
+              </ul>
+            </div>
+            <div class="video-con">
+              <div class="video-pic cur">
+                <div class="vodeo-pic-list">
+                  <div class="v-pic-item  mr10 fl">
+                    <a href="" target="_blank">
+                      <img src="img/p40.jpg" alt="">
+                    </a>
+                    <div>
+                    <a href="" target="_blank">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt font12">讲述开车启停注意事项</p>
+                    </a>
+                    </div>
+                  </div>
+                  <div class="v-pic-item  fr">
+                    <a href="" target="_blank">
+                      <img src="img/p40.jpg" alt="">
+                    </a>
+                    <div>
+                    <a href="" target="_blank">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt font12">科箅兹和英郎到底差哪</p>
+                    </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="vodeo-pic-list">
+                  <div class="v-pic-item  mr10 fl">
+                    <a href="" target="_blank">
+                      <img src="img/celYN93g6qu4c.jpg" alt="">
+                    </a>
+                    <div>
+                    <a href="" target="_blank">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt font12">科箅兹和英郎到底差哪</p>
+                    </a>
+                    </div>
+                  </div>
+                  <div class="v-pic-item  fr">
+                    <a href="" target="_blank">
+                      <img src="img/p40.jpg" alt="">
+                    </a>
+                    <div>
+                    <a href="" target="_blank">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt font12">科箅兹和英郎到底差哪</p>
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="video-pic">
+                <div class="vodeo-pic-list">
+                  <div class="v-pic-item  mr10 fl">
+                    <a href="" target="_blank">
+                      <img src="img/p40.jpg" alt="">
+                    </a>
+                    <div>
+                    <a href="" target="_blank">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt font12">科箅兹和英郎到底差哪</p>
+                    </a>
+                    </div>
+                  </div>
+                  <div class="v-pic-item  fr">
+                    <a href="" target="_blank">
+                      <img src="img/p40.jpg" alt="">
+                    </a>
+                    <div>
+                    <a href="" target="_blank">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt font12">五分钏看懂新宝来</p>
+                    </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="vodeo-pic-list">
+                  <div class="v-pic-item  mr10 fl">
+                    <a href="" target="_blank">
+                      <img src="img/p40.jpg" alt="">
+                    </a>
+                    <div>
+                    <a href="" target="_blank">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt font12">科箅兹和英郎到底差哪</p>
+                    </a>
+                    </div>
+                  </div>
+                  <div class="v-pic-item  fr">
+                    <a href="" target="_blank">
+                      <img src="img/p40.jpg" alt="">
+                    </a>
+                    <div>
+                    <a href="" target="_blank">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt font12">科箅兹和英郎到底差哪</p>
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--汽车视频厂商访谈end-->
+          <!--栏目推荐start-->
+          <div class="column">
+            <h3>栏目推荐</h3>
+            <div class="column-con">
+              <ul class="col-tab">
+                <li class="act">
+                  <span>自说自话的点评君</span>
+                </li>
+                <li>
+                  <span>点评君的收藏夹</span>
+                </li>
+                <li>
+                  <span>新车上市前瞻</span>
+                </li>
+                <li>
+                  <span>每日车坛点评</span>
+                </li>
+                <li>
+                  <span>每周车市热点</span>
+                </li>
+              </ul>
+              <div class="col-tab-pic">
+                <div class="tab-pic cur">
+                  <a href="" target="">
+                    <img src="img/640_20160330181434410025316107180.jpg">
+                    准车迷手册 宝马车迷是这样
+                  </a>
+                </div>
+                <div class="tab-pic">
+                  <a href="" target="">
+                    <img src="img/ce3u9zCYIQt.jpg">
+                    准车迷手册 宝马车迷是这样
+                  </a>
+                </div>
+                <div class="tab-pic">
+                  <a href="" target="">
+                    <img src="img/ceERwo6XewZbQ.jpg">
+                    准车迷手册 宝马车迷是这样
+                  </a>
+                </div>
+                <div class="tab-pic">
+                  <a href="" target="">
+                    <img src="img/celYN93g6qu4c.jpg">
+                    准车迷手册 宝马车迷是这样
+                  </a>
+                </div>
+                <div class="tab-pic">
+                  <a href="" target="">
+                    <img src="img/ce3u9zCYIQt.jpg">
+                    准车迷手册 宝马车迷是这样
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--栏目推荐end-->
+          <!--吐槽版块start-->
+          <div class="slot">
+            <ul>
+              <li class="col-blue">
+                <a href="" target="_blank">购买指南系列</a>
+              </li>
+              <li class="col-orange">
+                <a href="" target="_blank">擂台</a>
+              </li>
+              <li class="col-orange">
+                <a href="" target="_blank">大玩家</a>
+              </li>
+              <li class="col-blue">
+                <a href="" target="_blank">买车差钱不用愁</a>
+              </li>
+              <li class="col-blue">
+                <a href="" target="_blank">主动刹车测试系列</a>
+              </li>
+              <li class="col-orange">
+                <a href="" target="_blank">老师好</a>
+              </li>
+            </ul>
+          </div>
+          <!--吐槽版块end-->
+          <!--促销信息start-->
+          <div class="sale" id="sale" style="widows:320px; height:220px; padding-top:20px;">
+            <a href="" target="_blank">
+              <img src="img/640_20160330181434410025316107180.jpg" alt="">
+            </a>
+          </div>
+          <!--促销信息end-->
+        </div>
+        <div class="news-mid">
+          <div class="news-hottitle">
+            <a href="" target="_blank">图说八道 公鸡坐车风不怕警察抓?</a>
+          </div>
+          <div class="news-subtitle">
+            <a href="" target="_blank">[SUV试驾评测]</a>
+            <a href="" target="_blank">[AH-100评价体系]</a>
+            <a href="" target="_blank">[儿童安全座椅专题]</a>
+          </div>
+          <ul class="ul-list">
+            <li>
+              <a href="" target="_blank">曝伊兰特全新运动版谍道配1.6T动力</a>
+              <a href="" target="_blank">标致3008</a>
+              <a href="" target="_blank">用实力说话</a>
+            </li>
+            <li>
+              <a href="" target="_blank">玛莎拉蒂首款SUV谍道</a>
+              <a href="" target="_blank">将日内瓦车展亮相</a>
+              <a href="" target="_blank">2015年高销量</a>
+            </li>
+            <li>
+              <a href="" target="_blank">曝改款宝骏560领上汽通用新规划</a>
+              <a href="" target="_blank">全系最高优惠2.8万元</a>
+            </li>
+            <li>
+              <a href="" target="_blank">城市主战场自由光对比三菱欧蓝德对战赛</a>
+              <a href="" target="_blank">接口的意义接口的意义</a>
+            </li>
+            <li>
+              <a href="" target="_blank">新款轩逸将于3月4日上市推7款车型</a>
+              <a href="" target="_blank">2015年编架曾试驾印象</a>
+            </li>
+          </ul>
+          <ul class="ul-list mt15">
+            <li>
+              <a href="" target="_blank">北汽BJ20有望7月上市搭载1.5T+6MT/CVT</a>
+              <a href="" target="_blank">顶配对比XJL入门版</a>
+            </li>
+            <li>
+              <a href="" target="_blank">新款轩逸将于3月4日上市推7款车型</a>
+              <a href="" target="_blank">2015编辑曾试架印象</a>
+            </li>
+            <li>
+              <a href="" target="_blank">玛莎拉蒂首页suv谍道</a>
+              <a href="" target="_blank">将日内瓦车展亮相</a>
+              <a href="" target="_blank">2015编高销售</a>
+            </li>
+            <li>
+              <a href="" target="_blank">曝伊兰特全新运动版谍照配1.6t动力</a>
+              <a href="" target="_blank">标致3008</a>
+              <a href="" target="_blank">用实力说话</a>
+            </li>
+            <li>
+              <a href="" target="_blank">新款轩逸将于3月4日上市推7款车型</a>
+              <a href="" target="_blank">全系最高优惠2.8万元</a>
+            </li>
+          </ul>
+          <div class="ad" style="width:428px; height:32px; border:1px solid #e94740; line-height:32px; text-align:center; margin:10px 0; font-size:16px; font-weight:bold;">
+            <a href="" target="_blank" style="color:#e94740">可靠的伙伴 宝骏560车主尊重多重关怀礼</a>
+          </div>
+          <ul class="ul-list ul-list2">
+            <li>
+              <span>
+                <a href="" target="_blank">新闻</a>
+                <em>|</em>
+              </span>
+              <a href="" target="_blank">曝伊兰特全新运动版谍道配1.6T动力</a>
+              <a href="" target="_blank">标致3008</a>
+            </li>
+            <li>
+              <span>
+                <a href="" target="_blank">新闻</a>
+                <em>|</em>
+              </span>
+              <a href="" target="_blank">玛莎拉蒂首款suv谍照</a>
+              <a href="" target="_blank">将日内瓦车展亮相</a>
+              <a href="" target="_blank">2015年高销售</a>
+            </li>
+            <li>
+              <span>
+                <a href="" target="_blank">新闻</a>
+                <em>|</em>
+              </span>
+              <a href="" target="_blank">曝伊兰特全新运动版谍照配力1.6动力</a>
+              <a href="" target="_blank">标致3008</a>
+            </li>
+            <li>
+              <span>
+                <a href="" target="_blank">新闻</a>
+                <em>|</em>
+              </span>
+              <a href="" target="_blank">城市主战场自由光对比赛</a>
+              <a href="" target="_blank">拉口的意义拉口的意义</a>
+            </li>
+            <li>
+              <span>
+                <a href="" target="_blank">新闻</a>
+                <em>|</em>
+              </span>
+              <a href="" target="_blank">玛莎拉蒂首款suv谍照</a>
+              <a href="" target="_blank">将日内瓦车展亮相</a>
+              <a href="" target="_blank">2015年高销售</a>
+            </li>
+            <li>
+              <span>
+                <a href="" target="_blank">试驾</a>
+                <em>|</em>
+              </span>
+              <a href="" target="_blank">北汽bj20有望7月上市搭载1.5+6mt/gvt</a>
+              <a href="" target="_blank">对比xjl入门版</a>
+            </li>
+            <li>
+              <span>
+                <a href="" target="_blank">试驾</a>
+                <em>|</em>
+              </span>
+              <a href="" target="_blank">新款轩逸将于3月4日上市推车型</a>
+              <a href="" target="_blank">2015年编辑曾试驾印象</a>
+            </li>
+            <li>
+              <span>
+                <a href="" target="_blank">新闻</a>
+                <em>|</em>
+              </span>
+              <a href="" target="_blank">曝伊兰特全新运动版谍道配1.6T动力</a>
+              <a href="" target="_blank">标致3008</a>
+            </li>
+            <li>
+              <span>
+                <a href="" target="_blank">导购</a>
+                <em>|</em>
+              </span>
+              <a href="" target="_blank">曝伊兰特全新运动版谍道配1.6T动力</a>
+              <a href="" target="_blank">标致3008</a>
+            </li>
+            <li>
+              <span>
+                <a href="" target="_blank">新闻</a>
+                <em>|</em>
+              </span>
+              <a href="" target="_blank">曝伊兰特全新运动版谍道配1.6T动力</a>
+              <a href="" target="_blank">标致3008</a>
+            </li>
+          </ul>
+          <div class="news-yc">
+            <a href="" target="_blank">
+              用车小常识：<strong>爱屋及乌不嫌弃 包容本田CR-V小缺点</strong>
+            </a>
+          </div>
+          <ul class="ul-list ul-list2">
+            <li>
+              <span>
+                <a href="" target="_blank">用车</a>
+                <em>|</em>
+              </span>
+              <a href="" target="_blank">曝伊兰特首页suv谍照</a>
+              <a href="" target="_blank">将日内瓦车展亮相</a>
+              <a href="" target="_blank">2015年高销售</a>
+            </li>
+            <li>
+              <span>
+                <a href="" target="_blank">新闻</a>
+                <em>|</em>
+              </span>
+              <a href="" target="_blank">曝伊兰特全新运动版谍道配1.6T动力</a>
+              <a href="" target="_blank">标致3008</a>
+            </li>
+          </ul>
+          <div class="news-title" id="market-tit">
+            <a href="" target="_blank" class="more">进入北京车市>></a>
+            <a href="" target="_blank" class="bold">北京行情</a>
+            <a href="javascript:" target="_blank" class="city" id="city">[切换城市]</a>
+            <div class="swithc-city" id="swithc-city">
+              我是切换城市内容〜谢谢
+            </div>
+          </div>
+          <div class="ad" style="width:428px; height:32px; border:1px solid #e94740; line-height:32px; text-align:center; margin:10px 0; font-size:16px; font-weight:bold;">
+            <a href="" target="_blank" style="color:#e94740">可靠的伙伴 宝骏560车主尊重多重关怀礼</a>
+          </div>
+          <ul class="ul-list">
+            <li>
+              <a href="" target="_blank">曝伊兰特全新运动版谍道配1.6T动力</a>
+              <a href="" target="_blank">标致3008</a>
+              <a href="" target="_blank">用实力说话</a>
+            </li>
+            <li>
+              <a href="" target="_blank">玛莎拉蒂首款SUV谍道</a>
+              <a href="" target="_blank">将日内瓦车展亮相</a>
+              <a href="" target="_blank">2015年高销量</a>
+            </li>
+            <li>
+              <a href="" target="_blank">曝改款宝骏560领上汽通用新规划</a>
+              <a href="" target="_blank">全系最高优惠2.8万元</a>
+            </li>
+            <li>
+              <a href="" target="_blank">城市主战场自由光对比三菱欧蓝德对战赛</a>
+              <a href="" target="_blank">接口的意义接口的意义</a>
+            </li>
+            <li>
+              <a href="" target="_blank">新款轩逸将于3月4日上市推7款车型</a>
+              <a href="" target="_blank">2015年编架曾试驾印象</a>
+            </li>
+          </ul>
+          <ul class="ul-list">
+            <li>
+              <a href="" target="_blank">北汽BJ20有望7月上市搭载1.5T+6MT/CVT</a>
+              <a href="" target="_blank">顶配对比XJL入门版</a>
+            </li>
+            <li>
+              <a href="" target="_blank">新款轩逸将于3月4日上市推7款车型</a>
+              <a href="" target="_blank">2015编辑曾试架印象</a>
+            </li>
+            <li>
+              <a href="" target="_blank">玛莎拉蒂首页suv谍道</a>
+              <a href="" target="_blank">将日内瓦车展亮相</a>
+              <a href="" target="_blank">2015编高销售</a>
+            </li>
+            <li>
+              <a href="" target="_blank">曝伊兰特全新运动版谍照配1.6t动力</a>
+              <a href="" target="_blank">标致3008</a>
+              <a href="" target="_blank">用实力说话</a>
+            </li>
+            <li>
+              <a href="" target="_blank">新款轩逸将于3月4日上市推7款车型</a>
+              <a href="" target="_blank">全系最高优惠2.8万元</a>
+            </li>
+          </ul>
+        </div>
+        <div class="news-r">
+          <div class="tool">
+            <ul>
+              <li>
+                <a href="" target="">
+                  <img src="img/fdj.png">
+                  选车
+                </a>
+              </li>
+              <li>
+                <a href="" target="">
+                  <img src="img/pk.png">
+                  车型对比
+                </a>
+              </li>
+              <li>
+                <a href="" target="">
+                  <img src="img/mon.png">
+                  报价
+                </a>
+              </li>
+              <li>
+                <a href="" target="">
+                  <img src="img/com.png">
+                  计算器
+                </a>
+              </li>
+              <li>
+                <a href="" target="">
+                  <img src="img/car.png">
+                  经销商
+                </a>
+              </li>
+              <li>
+                <a href="" target="">
+                  <img src="img/top.png">
+                  排行
+                </a>
+              </li>
+              <li>
+                <a href="" target="">
+                  <img src="img/bai.png">
+                  百科
+                </a>
+              </li>
+              <li>
+                <a href="" target="">
+                  <img src="img/r.png">
+                  路况
+                </a>
+              </li>
+              <li>
+                <a href="" target="">
+                  <img src="img/c.png">
+                  选车
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="ad" style="margin-bottom:15px;">
+            <a href="" target="_blank">
+              <img src="img/640_20160330181434410025316107180.jpg" width="190" height="130">
+            </a>
+          </div>
+          <div class="interest">
+            <div class="inter-tit">
+              <h3><a href="" target="_blank">大家都看什么车</a></h3>
+            </div>
+            <div class="inter-con">
+              <div class="inter-slider-l" id="inter-slider-l">
+                <ul>
+                  <li class="acti">
+                    <span>全部</span>
+                  </li>
+                  <li>
+                    <span>微型</span>
+                  </li>
+                  <li>
+                    <span>小型</span>
+                  </li>
+                  <li>
+                    <span>紧凑型</span>
+                  </li>
+                  <li>
+                    <span>中型</span>
+                  </li>
+                  <li>
+                    <span>中大型</span>
+                  </li>
+                  <li>
+                    <span>豪华型</span>
+                  </li>
+                  <li>
+                    <span>SUV</span>
+                  </li>
+                  <li>
+                    <span>MPV</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="inter-slider-r" id="inter-slider-r">
+                <div class="tab-pic2 curr">
+                  <ul>
+                    <li>
+                      <em class="hot">1</em>
+                      <a href="" target="_blank">绅宝D70</a>
+                    </li>
+                    <li>
+                      <em class="hot">2</em>
+                      <a href="" target="_blank">奔腾B90</a>
+                    </li>
+                    <li>
+                      <em class="hot">3</em>
+                      <a href="" target="_blank">福克斯</a>
+                    </li>
+                    <li>
+                      <em>4</em>
+                      <a href="" target="_blank">奥迪A6L</a>
+                    </li>
+                    <li>
+                      <em>5</em>
+                      <a href="" target="_blank">荣威550</a>
+                    </li>
+                    <li>
+                      <em>6</em>
+                      <a href="" target="_blank">MG3</a>
+                    </li>
+                    <li>
+                      <em>7</em>
+                      <a href="" target="_blank">速腾</a>
+                    </li>
+                    <li>
+                      <em>8</em>
+                      <a href="" target="_blank">迈锐宝</a>
+                    </li>
+                    <li>
+                      <em>9</em>
+                      <a href="" target="_blank">五菱宏光</a>
+                    </li>
+                    <li>
+                      <em>10</em>
+                      <a href="" target="_blank">哈弗H6 Coupe</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-pic2">
+                  <ul>
+                    <li>
+                      <em class="hot">1</em>
+                      <a href="" target="_blank">绅宝D70</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-pic2">
+                  <ul>
+                    <li>
+                      <em class="hot">1</em>
+                      <a href="" target="_blank">绅宝D70</a>
+                    </li>
+                    <li>
+                      <em class="hot">2</em>
+                      <a href="" target="_blank">奔腾B90</a>
+                    </li>
+                    <li>
+                      <em>4</em>
+                      <a href="" target="_blank">奥迪A6L</a>
+                    </li> 
+                  </ul>
+                </div>
+                <div class="tab-pic2">
+                  <ul>
+                    <li>
+                      <em class="hot">1</em>
+                      <a href="" target="_blank">绅宝D70</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-pic2">
+                  <ul>
+                    <li>
+                      <em>7</em>
+                      <a href="" target="_blank">速腾</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-pic2">
+                  <ul>
+                    <li>
+                      <em>6</em>
+                      <a href="" target="_blank">MG3</a>
+                    </li>
+                    <li>
+                      <em>7</em>
+                      <a href="" target="_blank">速腾</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-pic2">
+                  <ul>
+                    <li>
+                      <em class="hot">1</em>
+                      <a href="" target="_blank">绅宝D70</a>
+                    </li>
+                    <li>
+                      <em class="hot">2</em>
+                      <a href="" target="_blank">奔腾B90</a>
+                    </li>
+                    <li>
+                      <em class="hot">3</em>
+                      <a href="" target="_blank">福克斯</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-pic2">
+                  <ul>
+                    <li>
+                      <em>7</em>
+                      <a href="" target="_blank">速腾</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-pic2">
+                  <ul>
+                    <li>
+                      <em class="hot">1</em>
+                      <a href="" target="_blank">绅宝D70</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hot-commend">
+            <div class="hot-commend-tit">
+              <h3>
+                <a href="" target="_blank">热门推荐</a>
+              </h3>
+            </div>
+            <div class="hot-commend-con">
+              <div class="commend-pic">
+                <a href="" target="_blank">
+                  <img src="img/640_20160330181434410025316107180.jpg" alt="">
+                </a>
+                <div>
+                  <a href="" target="">
+                    <span class="pic-bg"></span>
+                    <p class="pic-txt font12">2016款基本型（未上市）</p>
+                  </a>
+                </div>
+              </div>
+              <ul>
+                <li>
+                  <a href="" target="_blank">全新轩逸智驱登场节能升级</a>
+                </li>
+                <li>
+                  <a href="" target="_blank">军用转民用？试驾军用卡车</a>
+                </li>
+                <li>
+                  <a href="" target="_blank">全新轩逸智驱登场节能升级</a>
+                </li>
+                <li>
+                  <a href="" target="_blank">续航750km 本田推烯料车</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="ad-re">
+            <div class="ad-re-pic">
+              <a href="">
+                <img src="img/640_20160330181434410025316107180.jpg" width="190" height="118" alt="">
+              </a>
+              <div>
+                <a href="" target="_blank">
+                  <span class="pic-bg"></span>
+                  <p class="pic-txt font12">第四期：节能技巧大揭秘</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--新闻区域end-->
+    <!--地方车市行情区域start-->
+    <div class="row">
+      <div class="market">
+        <div class="market-tit">
+          <div class="tit-city fl">
+            <h2><a href="" target="_blank">北京车市</a></h2>
+            <div class="city-name"><a href="javascript:">
+              [切换块市
+              <em class="icon icon2"></em>]
+            </a></div>
+          </div>
+          <div class="tit-price fr">
+            <ul>
+              <li>
+                <a href="" target="_blank">行情</a>
+              </li>
+              <li>
+                <em class="icon icon3"></em>
+              </li>
+              <li>
+                <a href="" target="_blank">报价</a>
+              </li>
+              <li>
+                <em class="icon icon3"></em>
+              </li>
+              <li>
+                <a href="" target="_blank">经销商</a>
+              </li>
+              <li class="line">|</li>
+              <li>
+                <a href="" target="_blank" class="colo-grey">进入北京车市>></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="maket-con">
+          <div class="che-tit" id="local-che-tit">
+            <ul>
+              <li class="actcra">
+                <a href="" target="">热门</a>
+              </li>
+              <li>
+                <a href="" target="">SUV</a>
+              </li>
+              <li>
+                <a href="" target="">微型车</a>
+              </li>
+              <li>
+                <a href="" target="">小型车</a>
+              </li>
+              <li>
+                <a href="" target="">紧凑型车</a>
+              </li>
+              <li>
+                <a href="" target="">中型车</a>
+              </li>
+              <li>
+                <a href="" target="">大型车</a>
+              </li>
+              <li>
+                <a href="" target="">MPV</a>
+              </li>
+              <li>
+                <a href="" target="">猜你喜欢</a>
+              </li>
+            </ul>
+          </div>
+          <div class="che-con">
+            <div class="che-item curacc">
+              <dl class="market-list">
+                <dt>
+                  <div class="market-text01">车系</div>
+                  <div class="market-text02">降幅</div>
+                  <div class="market-text03">优惠价</div>
+                </dt>
+                <dd>
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd class="bg-grey">
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd>
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd class="bg-grey">
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd>
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd class="bg-grey">
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd>
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+              </dl>
+              <dl class="market-list m-50">
+                <dt>
+                  <div class="market-text01">车系</div>
+                  <div class="market-text02">降幅</div>
+                  <div class="market-text03">优惠价</div>
+                </dt>
+                <dd>
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd class="bg-grey">
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd>
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd class="bg-grey">
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd>
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd class="bg-grey">
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd>
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+              </dl>
+              <dl class="market-list">
+                <dt>
+                  <div class="market-text01">车系</div>
+                  <div class="market-text02">降幅</div>
+                  <div class="market-text03">优惠价</div>
+                </dt>
+                <dd>
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd class="bg-grey">
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd>
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd class="bg-grey">
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd>
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd class="bg-grey">
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+                <dd>
+                  <div class="market-text01">
+                    <a href="" target="_blank">宝马3系</a>
+                  </div>
+                  <div class="market-text02">
+                    <a href="" class="greylink" target="_blank">
+                      <i class="icon icon4-down"></i>
+                      4万
+                    </a>
+                  </div>
+                  <div class="market-text03">
+                    <a href="" class="redlink" target="_blank">28.80万</a>
+                  </div>
+                </dd>
+              </dl>
+            </div>
+            <div class="che-item">我是suv版块</div>
+            <div class="che-item">我是微型车</div>
+            <div class="che-item">我是小型车版块</div>
+            <div class="che-item">我是紧凑型版块</div>
+            <div class="che-item">我是中型车版块</div>
+            <div class="che-item">我是大型车版块</div>
+            <div class="che-item">我是mpv版块</div>
+            <div class="che-item">我是猜你喜欢版块</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--地方车市行情区域end-->
+    <!--本地热销车型商讯区域start-->
+    <div class="row">
+      <div class="sale-info">
+        <div class="loca-moto">
+          <h3>
+            <a href="" target="_blank">本地热销车弄</a>
+          </h3>
+          <div class="loca-moto-con">
+            <div class="moto-item">
+              <a href="" target="_blank">
+                <img src="img/640_20160330181434410025316107180.jpg" alt="">
+                <p>本田XR-V</p>
+                <p>
+                  <span class="col-red">12.78万</span>
+                  <span class="col-grey">12.78万</span>
+                </p>
+              </a>
+            </div>
+            <div class="moto-item">
+              <a href="" target="_blank">
+                <img src="img/640_20160330181434410025316107180.jpg" alt="">
+                <p>本田XR-V</p>
+                <p>
+                  <span class="col-red">12.78万</span>
+                  <span class="col-grey">12.78万</span>
+                </p>
+              </a>
+            </div>
+            <div class="moto-item">
+              <a href="" target="_blank">
+                <img src="img/640_20160330181434410025316107180.jpg" alt="">
+                <p>本田XR-V</p>
+                <p>
+                  <span class="col-red">12.78万</span>
+                  <span class="col-grey">12.78万</span>
+                </p>
+              </a>
+            </div>
+          </div>
+          <div class="loca-moto-con">
+            <div class="moto-item">
+              <a href="" target="_blank">
+                <img src="img/640_20160330181434410025316107180.jpg" alt="">
+                <p>本田XR-V</p>
+                <p>
+                  <span class="col-red">12.78万</span>
+                  <span class="col-grey">12.78万</span>
+                </p>
+              </a>
+            </div>
+            <div class="moto-item">
+              <a href="" target="_blank">
+                <img src="img/640_20160330181434410025316107180.jpg" alt="">
+                <p>本田XR-V</p>
+                <p>
+                  <span class="col-red">12.78万</span>
+                  <span class="col-grey">12.78万</span>
+                </p>
+              </a>
+            </div>
+            <div class="moto-item">
+              <a href="" target="_blank">
+                <img src="img/640_20160330181434410025316107180.jpg" alt="">
+                <p>本田XR-V</p>
+                <p>
+                  <span class="col-red">12.78万</span>
+                  <span class="col-grey">12.78万</span>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="info">
+          <div class="info-tit">
+            <ul>
+              <li class="cra">
+                <a href="" target="_blank">促销资讯</a>
+              </li>
+              <li>
+                <a href="" target="_blank">热门信息</a>
+              </li>
+            </ul>
+          </div>
+          <div class="info-con">
+           <div class="info-item cur">
+            <ul>
+              <li>
+                <a href="" target="_blank" class="info-grey">[福克斯]</a>
+                <a href="" target="_blank">途斯奔袭千里</a>
+                <a href="" target="_blank">游览洞诞湖春色赏金花</a>
+              </li>
+              <li>
+                <a href="" target="_blank" class="info-grey">[福克斯]</a>
+                <a href="" target="_blank">途斯奔袭千里</a>
+                <a href="" target="_blank">游览洞诞湖春色赏金花</a>
+              </li>
+              <li>
+                <a href="" target="_blank" class="info-grey">[福克斯]</a>
+                <a href="" target="_blank">途斯奔袭千里</a>
+                <a href="" target="_blank">游览洞诞湖春色赏金花</a>
+              </li>
+              <li>
+                <a href="" target="_blank" class="info-grey">[福克斯]</a>
+                <a href="" target="_blank">途斯奔袭千里</a>
+                <a href="" target="_blank">游览洞诞湖春色赏金花</a>
+              </li>
+              <li>
+                <a href="" target="_blank" class="info-grey">[福克斯]</a>
+                <a href="" target="_blank">途斯奔袭千里</a>
+                <a href="" target="_blank">游览洞诞湖春色赏金花</a>
+              </li>
+            </ul>
+            <ul class="mt20">
+              <li>
+                <a href="" target="_blank" class="info-grey">[福克斯]</a>
+                <a href="" target="_blank">途斯奔袭千里</a>
+                <a href="" target="_blank">游览洞诞湖春色赏金花</a>
+              </li>
+              <li>
+                <a href="" target="_blank" class="info-grey">[福克斯]</a>
+                <a href="" target="_blank">途斯奔袭千里</a>
+                <a href="" target="_blank">游览洞诞湖春色赏金花</a>
+              </li>
+              <li>
+                <a href="" target="_blank" class="info-grey">[福克斯]</a>
+                <a href="" target="_blank">途斯奔袭千里</a>
+                <a href="" target="_blank">游览洞诞湖春色赏金花</a>
+              </li>
+              <li>
+                <a href="" target="_blank" class="info-grey">[福克斯]</a>
+                <a href="" target="_blank">途斯奔袭千里</a>
+                <a href="" target="_blank">游览洞诞湖春色赏金花</a>
+              </li>
+              <li>
+                <a href="" target="_blank" class="info-grey">[福克斯]</a>
+                <a href="" target="_blank">途斯奔袭千里</a>
+                <a href="" target="_blank">游览洞诞湖春色赏金花</a>
+              </li>
+            </ul>
+           </div>
+           <div class="info-item">
+             我是热门消息版块
+           </div>
+          </div>
+        </div>
+        <div class="loca">
+          <div class="loca-act">
+            <h3>
+              <a href="" target="_blank">本地活动</a>
+            </h3>
+          <div class="loca-mo-con">
+            <div class="loca-pic">
+              <a href="" target="_blank">
+                <img src="img/640_20160330181434410025316107180.jpg" width="200" height="130">
+                <div>
+                  <a href="" target="">
+                    <span class="pic-bg"></span>
+                    <p class="pic-txt font12">2016款基本型（未上市）</p>
+                  </a>
+                </div>
+              </a>
+            </div>
+            <div class="loca-pic mt20">
+              <a href="" target="_blank">
+                <img src="img/640_20160330181434410025316107180.jpg" width="200" height="130">
+                <div>
+                  <a href="" target="_blank">
+                    <span class="pic-bg"></span>
+                    <p class="pic-txt font12">2016款基本型(未上市)</p>
+                  </a>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+    <!--本地热销车型商讯区域end-->
+    <!--认证经销商区域start-->
+    <div class="row">
+      <div class="decal">
+        <div class="decal-tit">
+            <h3>
+              <a href="" target="_blank">认证经销商</a>
+            </h3>
+        </div>
+        <div class="decal-con">
+          <div class="deca-item">
+            <ul class="sum">
+              <li>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟1</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p2.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p14.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p19.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p44.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟2</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+                <div class="decalecon">
+                  <a href="" target="_blank">
+                    <img src="img/p40.jpg">
+                    <p>首创中伟</p>
+                    <p>010－62607878</p>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <ul class="dots">
+            <li class="rua">
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--认证经销商区域end-->
+    <!--新车日历区域start-->
+    <div class="row">
+      <div class="calen">
+        <div class="calen-tit">
+          <h3><a href="" target="_blank">新车日历</a></h3>
+          <div class="calen-info" id="calen-info">
+            <ul>
+              <li>
+                <a href="" target="_blank">新车速递：体验奔驰旗舰suv新款gls</a>
+              </li>
+              <li class="ca-line">|</li>
+              <li>
+                <a href="" target="_blank">道奇酷威全新旅行片试驾</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="calen-con">
+          <div class="calen-item">
+            <ul class="cal-sum">
+              <li>
+                <div class="calen-list">
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con last">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                </div>
+                <div class="calen-list">
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con last">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                </div>
+              </li>
+              <li>
+                <div class="calen-list">
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>2月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con last">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                </div>
+                <div class="calen-list">
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con last">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                </div>
+              </li>
+              <li>
+                <div class="calen-list">
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>3月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con last">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                </div>
+                <div class="calen-list">
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con last">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                </div>
+              </li>
+              <li>
+                <div class="calen-list">
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>4月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con last">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                </div>
+                <div class="calen-list">
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con last">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                </div>
+              </li>
+              <li>
+                <div class="calen-list">
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>5月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con last">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                </div>
+                <div class="calen-list">
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con last">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                </div>
+              </li>
+              <li>
+                <div class="calen-list">
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>6月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con last">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                </div>
+                <div class="calen-list">
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                 <div class="cal-main-con last">
+                  <div class="calen-img">
+                    <a href="" target="_blank">
+                      <img src="img/640_20160330181434410025316107180.jpg">
+                      <div class="cal-txt">
+                        <span class="pic-bg"></span>
+                        <p class="pic-txt font12">2016款基本型(未上市)</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="timer">
+                    <span>1月2日</span>
+                    <span class="oran">已上市</span>
+                  </div>
+                 </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <a href="javascrpt:" class="F-prev" id="F-prev"></a>
+          <a href="javascrpt:" class="F-next" id="F-next"></a>
+          <ul class="dots2">
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--新车日历区域end-->
+    <!--地方二手车区域start-->
+    <div class="row">
+      <div class="ershou">
+        <div class="ershou-tit">
+          <h2><a href="" target="_blank">北京二手车</a></h2>
+          <div class="ershou-silder fr">
+            <div class="ershou-search-txt fl">
+               <span class="ershou-search-name">省份</span>
+               <em class="ershou-search-icon icon"></em>
+            </div>
+            <div class="ershou-search-txt fl">
+               <span class="ershou-search-name">城市</span>
+               <em class="ershou-search-icon icon"></em>
+            </div>
+            <div class="ershou-search-txt fl">
+               <span class="ershou-search-name">品牌</span>
+               <em class="ershou-search-icon icon"></em>
+            </div>
+            <div class="ershou-search-txt er-sear-r fl">
+               <span class="ershou-search-name">车系</span>
+               <em class="ershou-search-icon icon"></em>
+            </div>
+            <a href="" class="link-orange">找二手车</a>
+          </div>
+        </div>
+        <div class="ershou-con">
+          <div class="ershou-con-tit">
+            <ul>
+              <li class="cua">
+                <a href="" target="_blank">
+                  <img src="../2016北京车展/img/rong_logo.png">
+                  <p>大众</p>
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="../2016北京车展/img/rong_logo.png">
+                  <p>大众</p>
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="../2016北京车展/img/rong_logo.png">
+                  <p>大众</p>
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="../2016北京车展/img/rong_logo.png">
+                  <p>大众</p>
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="../2016北京车展/img/rong_logo.png">
+                  <p>大众</p>
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="../2016北京车展/img/rong_logo.png">
+                  <p>大众</p>
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="../2016北京车展/img/rong_logo.png">
+                  <p>大众</p>
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="../2016北京车展/img/rong_logo.png">
+                  <p>大众</p>
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="../2016北京车展/img/rong_logo.png">
+                  <p>大众</p>
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="../2016北京车展/img/rong_logo.png">
+                  <p>大众</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="ershou-con-main">
+            <div class="ershou-item caut">
+              <ul>
+                <li>
+                  <a href="" target="_blank">
+                    <img src="img/640_20160330181434410025316107180.jpg" width="160" height="120" alt="">
+                  </a>
+                  <div class="ershou-item-txt">
+                    <a href="" target="_blank">
+                      <p>大众迈腾2013款迈腾豪华版</p>
+                      <p class="b-red">￥24.88万</p>
+                      <p class="grey">2013年12月上牌/3.5万公里</p>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <a href="" target="_blank">
+                    <img src="img/640_20160330181434410025316107180.jpg" width="160" height="120" alt="">
+                  </a>
+                  <div class="ershou-item-txt">
+                    <a href="" target="_blank">
+                      <p>大众迈腾2013款迈腾豪华版</p>
+                      <p class="b-red">￥24.88万</p>
+                      <p class="grey">2013年12月上牌/3.5万公里</p>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <a href="" target="_blank">
+                    <img src="img/640_20160330181434410025316107180.jpg" width="160" height="120" alt="">
+                  </a>
+                  <div class="ershou-item-txt">
+                    <a href="" target="_blank">
+                      <p>大众迈腾2013款迈腾豪华版</p>
+                      <p class="b-red">￥24.88万</p>
+                      <p class="grey">2013年12月上牌/3.5万公里</p>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <a href="" target="_blank">
+                    <img src="img/640_20160330181434410025316107180.jpg" width="160" height="120" alt="">
+                  </a>
+                  <div class="ershou-item-txt">
+                    <a href="" target="_blank">
+                      <p>大众迈腾2013款迈腾豪华版</p>
+                      <p class="b-red">￥24.88万</p>
+                      <p class="grey">2013年12月上牌/3.5万公里</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="mr50-none">
+                  <a href="" target="_blank">
+                    <img src="img/640_20160330181434410025316107180.jpg" width="160" height="120" alt="">
+                  </a>
+                  <div class="ershou-item-txt">
+                    <a href="" target="_blank">
+                      <p>大众迈腾2013款迈腾豪华版</p>
+                      <p class="b-red">￥24.88万</p>
+                      <p class="grey">2013年12月上牌/3.5万公里</p>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <a href="" target="_blank">
+                    <img src="img/640_20160330181434410025316107180.jpg" width="160" height="120" alt="">
+                  </a>
+                  <div class="ershou-item-txt">
+                    <a href="" target="_blank">
+                      <p>大众迈腾2013款迈腾豪华版</p>
+                      <p class="b-red">￥24.88万</p>
+                      <p class="grey">2013年12月上牌/3.5万公里</p>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <a href="" target="_blank">
+                    <img src="img/640_20160330181434410025316107180.jpg" width="160" height="120" alt="">
+                  </a>
+                  <div class="ershou-item-txt">
+                    <a href="" target="_blank">
+                      <p>大众迈腾2013款迈腾豪华版</p>
+                      <p class="b-red">￥24.88万</p>
+                      <p class="grey">2013年12月上牌/3.5万公里</p>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <a href="" target="_blank">
+                    <img src="img/640_20160330181434410025316107180.jpg" width="160" height="120" alt="">
+                  </a>
+                  <div class="ershou-item-txt">
+                    <a href="" target="_blank">
+                      <p>大众迈腾2013款迈腾豪华版</p>
+                      <p class="b-red">￥24.88万</p>
+                      <p class="grey">2013年12月上牌/3.5万公里</p>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <a href="" target="_blank">
+                    <img src="img/640_20160330181434410025316107180.jpg" width="160" height="120" alt="">
+                  </a>
+                  <div class="ershou-item-txt">
+                    <a href="" target="_blank">
+                      <p>大众迈腾2013款迈腾豪华版</p>
+                      <p class="b-red">￥24.88万</p>
+                      <p class="grey">2013年12月上牌/3.5万公里</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="ershoubg-grey">
+                  <div class="ershou-market">
+                    <a href="" target="_blank">查看更多>><br>大众二手车</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="ershou-item">我是大众2</div>
+            <div class="ershou-item">我是大众3</div>
+            <div class="ershou-item">我是大众4</div>
+            <div class="ershou-item">我是大众25</div>
+            <div class="ershou-item">我是大众6</div>
+            <div class="ershou-item">我是大众7</div>
+            <div class="ershou-item">我是大众266</div>
+            <div class="ershou-item">我是大众2454545</div>
+            <div class="ershou-item">我是大众2ad</div>
+          </div>
+        </div>
+      </div>
+    <!--地方二手车区域end-->
+    <!--论坛精选区域start-->
+    <div class="row">
+      <div class="bbs">
+        <div class="calen-tit">
+          <h3><a href="" target="_blank">论坛精选</a></h3>
+        </div>
+        <div class="bbs-con">
+          <div class="bbs-big-pic fl">
+            <a href="" target="_blank">
+              <img src="img/640_20160330181434410025316107180.jpg" alt="">
+              <div class="bbs-bg-con">
+                <span class="pic-bg ft40"></span>
+                <p class="pic-txt ft40">再续传奇凶接新生 本田nsx</p>
+              </div>
+            </a>
+          </div>
+          <div class="bbs-smallpic fr">
+            <div class="bbs-small-item mr5">
+                <a href="" target="_blank">
+                 <img src="img/640_20160330181434410025316107180.jpg" alt="">
+                <div class="bbs-bg-con">
+                  <span class="pic-bg"></span>
+                  <p class="pic-txt">再续传奇凶接新生 本田nsx</p>
+                </div>
+                </a>
+            </div>
+            <div class="bbs-small-item">
+                <a href="" target="_blank">
+                 <img src="img/640_20160330181434410025316107180.jpg" alt="">
+                <div class="bbs-bg-con">
+                  <span class="pic-bg"></span>
+                  <p class="pic-txt">再续传奇凶接新生 本田nsx</p>
+                </div>
+                </a>
+            </div>
+            <div class="bbs-small-item mr5">
+                <a href="" target="_blank">
+                 <img src="img/640_20160330181434410025316107180.jpg" alt="">
+                <div class="bbs-bg-con">
+                  <span class="pic-bg"></span>
+                  <p class="pic-txt">再续传奇凶接新生 本田nsx</p>
+                </div>
+                </a>
+            </div>
+            <div class="bbs-small-item">
+                <a href="" target="_blank">
+                 <img src="img/640_20160330181434410025316107180.jpg" alt="">
+                <div class="bbs-bg-con">
+                  <span class="pic-bg"></span>
+                  <p class="pic-txt">再续传奇凶接新生 本田nsx</p>
+                </div>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--论坛精选区域end-->
+    <!--美车致区域start-->
+    <div class="row">
+      <div class="meiche">
+        <div class="meiche-tit">
+          <h3><a href="" target="_blank">美车致</a></h3>
+          <a href="" target="" class="meimore">更多美车致图片>></a>
+        </div>
+        <div class="che-tit" id="meiche">
+          <ul>
+            <li class="actcra">
+              <a href="" target="_blank">热门</a>
+            </li>
+            <li>
+              <a href="" target="_blank">SUV</a>
+            </li>
+            <li>
+              <a href="" target="_blank">豪华车</a>
+            </li>
+            <li>
+              <a href="" target="_blank">跑车</a>
+            </li>
+            <li>
+              <a href="" target="_blank">轿车</a>
+            </li>
+          </ul>
+        </div>
+        <div class="che-con">
+          <div class="che-item2 curaccb">
+            <div class="meitu-l fl">
+              <div class="meitu mt420310 mr5">
+                <a href="" target="_blank">
+                  <img src="img/ceERwo6XewZbQ.jpg">
+                   <div class="meich-bg">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt">再续传奇凶接新生 本田nsx</p>
+                   </div>
+                </a>
+              </div>
+              <div class="meitu mt205310">
+                <a href="" target="_blank">
+                  <img src="img/ce3u9zCYIQt.jpg">
+                  <div class="meich-bg">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt">再续传奇凶接新生 本田nsx</p>
+                   </div>
+                </a>
+              </div>
+              <div class="meitu mt313235 mr4">
+                <a href="" target="_blank">
+                  <img src="img/ce3u9zCYIQt.jpg">
+                  <div class="meich-bg">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt">再续传奇凶接新生 本田nsx</p>
+                   </div>
+                </a>
+              </div>
+              <div class="meitu mt313235">
+                <a href="" target="_blank">
+                  <img src="img/ce3u9zCYIQt.jpg">
+                  <div class="meich-bg">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt">再续传奇凶接新生 本田nsx</p>
+                   </div>
+                </a>
+              </div>
+            </div>
+            <div class="meitu-r fr">
+              <div class="meitu mt180135">
+                <a href="" target="_blank">
+                  <img src="img/640_20160330181434410025316107180.jpg">
+                  <div class="meich-bg">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt">再续传奇凶接新生 本田nsx</p>
+                   </div>
+                </a>
+              </div>
+              <div class="meitu mt180135 mrnone">
+                <a href="" target="_blank">
+                  <img src="img/640_20160330181434410025316107180.jpg">
+                  <div class="meich-bg">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt">再续传奇凶接新生 本田nsx</p>
+                   </div>
+                </a>
+              </div>
+              <div class="meitu mt180135">
+                <a href="" target="_blank">
+                  <img src="img/640_20160330181434410025316107180.jpg">
+                  <div class="meich-bg">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt">再续传奇凶接新生 本田nsx</p>
+                   </div>
+                </a>
+              </div>
+              <div class="meitu mt180135 mrnone">
+                <a href="" target="_blank">
+                  <img src="img/640_20160330181434410025316107180.jpg">
+                  <div class="meich-bg">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt">再续传奇凶接新生 本田nsx</p>
+                   </div>
+                </a>
+              </div>
+              <div class="meitu mt360270">
+                <a href="" target="_blank">
+                  <img src="img/ce3u9zCYIQt.jpg">
+                  <div class="meich-bg">
+                      <span class="pic-bg"></span>
+                      <p class="pic-txt">再续传奇凶接新生 本田nsx</p>
+                   </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="che-item2">我是suv</div>
+          <div class="che-item2">我是豪华车</div>
+          <div class="che-item2">我是跑车</div>
+          <div class="che-item2">我是轿车</div>
+        </div>
+      </div>
+    </div>
+    <!--美车致区域end-->
+  </div>
+  </div>
+  <!--综合排行区域start-->
+  <div class="ranking">
+    <div class="ranking-main">
+      <div class="ranking-tit">
+        <h2><a href="" target="_blank">综合排行</a></h2>
+      </div>
+      <div class="ranking-con">
+        <div class="ranking-item">
+          <h3><a href="" target="_blank">文章排行</a></h3>
+          <ul>
+            <li>
+              <a href="" target="_blank">
+                <em class="ranking-red">1</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em class="ranking-red">2</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em class="ranking-red">3</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>4</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>5</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>6</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>7</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>8</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>9</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>10</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="ranking-item">
+          <h3><a href="" target="_blank">论坛排行</a></h3>
+          <ul>
+            <li>
+              <a href="" target="_blank">
+                <em class="ranking-red">1</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em class="ranking-red">2</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em class="ranking-red">3</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>4</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>5</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>6</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>7</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>8</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>9</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>10</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="ranking-item mr50-none">
+          <h3><a href="" target="_blank">视频排行</a></h3>
+          <ul>
+            <li>
+              <a href="" target="_blank">
+                <em class="ranking-red">1</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em class="ranking-red">2</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em class="ranking-red">3</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>4</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>5</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>6</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>7</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>8</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>9</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <em>10</em>
+                迈锐宝对比新蒙迪欧
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--综合排行区域end-->
+  <!--友情链接区域start-->
+  <!--友情链接区域end-->
+  <!--右侧浮动start-->
+  <div class="Lf-con-nav" id="Lf-con-nav">
+    <ul>
+      <li class="on">
+        <a href="javascript:" id="news" target="_self">
+          <span>新闻</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:" id="newcar" target="_self">
+          <span>新车</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:" id="selecar" target="_self">
+          <span>选车</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:" id="ordercar" target="_self">
+          <span>购车</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:" id="yongcar" target="_self">
+          <span>用车</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:" id="carbbs" target="_self">
+          <span>论坛</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:" id="carpic" target="_self">
+          <span>图片</span>
+        </a>
+      </li>
+      <a href="javascrpit:" target="_blank" class="quest"><img src="img/tu.png"></a>
+      <a href="javascript:" target="_self" class="top"><img src="img/tou.png"></a>
+    </ul>
+  </div>
+  <!--右侧浮动end-->
+  <script type="text/javascript" src="js/58汽车js.js"></script>
+</body>
+</html>
